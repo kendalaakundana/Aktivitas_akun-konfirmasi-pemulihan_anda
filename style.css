@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.phone-image {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+.phone-images {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.phone-image:nth-child(2) {
+    top: 20px; /* Adjust this value to control the overlap */
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-yes, .button-no {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.button-yes {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-no {
+    background-color: #ff5722;
+    color: white;
+}
